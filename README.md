@@ -1,4 +1,4 @@
-# ML4SCI
+## ML4SCI
 # Task I: Quantum Computing Part 
 - 1) implement a simple quantum operation with Cirq or Pennylane
 - a) With 5 qubits 
