@@ -17,10 +17,18 @@
 Finally,the code also measures all qubits and plots the histogram of the measurement outcomes.
 Note that the swap test is a probabilistic algorithm and may produce different results each time it is run. Therefore, the histogram may not always show the exact same outcomes.
 
+# Task II: Classical Graph Neural Network (GNN) 
+- For Task II, you will use ParticleNet’s data for Quark/Gluon jet classification available here with its corresponding description. 
+- ● Choose 2 Graph-based architectures of your choice to classify jets as being quarks or gluons. Provide a description on what considerations you have taken to project this point-cloud dataset to a set of interconnected nodes and edges. 
+- ● Discuss the resulting performance of the 2 chosen architectures. 
+
+# Task III: Open Task 
+- Please comment on quantum computing or quantum machine learning. You can also comment on one quantum algorithm or one quantum software you are familiar with. You can also suggest methods you think are good and you would like to work on. Please use your own understanding. Comments copied from the internet will not be considered.
+
 # Task VI: Quantum representation learning
 
--In this task you should implement a simple representation learning scheme based on a contrastive loss:
+- In this task you should implement a simple representation learning scheme based on a contrastive loss:
 Load the MNIST dataset
--Write a function which takes an image and prepares a quantum state. This function should have trainable parameters which we want to learn in order to have good quantum representations
--Create a circuit with which takes two images and embeds both as quantum states with the function you wrote before. Afterwards the circuit should perform a ---SWAP test between the two states. In the end the measurement should give the fidelity of the quantum states.
--Train the circuit parameters with a contrastive loss: For two MNIST images in the same class the fidelity should be maximized, while for images of different -classes the fidelity should be minimized.
+- Write a function which takes an image and prepares a quantum state. This function should have trainable parameters which we want to learn in order to have good quantum representations
+- Create a circuit with which takes two images and embeds both as quantum states with the function you wrote before. Afterwards the circuit should perform a -- SWAP test between the two states. In the end the measurement should give the fidelity of the quantum states.
+- Train the circuit parameters with a contrastive loss: For two MNIST images in the same class the fidelity should be maximized, while for images of different - classes the fidelity should be minimized.
