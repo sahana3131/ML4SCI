@@ -17,7 +17,7 @@
 Finally,the code also measures all qubits and plots the histogram of the measurement outcomes.
 Note that the swap test is a probabilistic algorithm and may produce different results each time it is run. Therefore, the histogram may not always show the exact same outcomes.
 
-#Task VI: Quantum representation learning
+# Task VI: Quantum representation learning
 
 -In this task you should implement a simple representation learning scheme based on a contrastive loss:
 Load the MNIST dataset
